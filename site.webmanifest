@@ -1,0 +1,21 @@
+{
+  "name": "Cread 3D",
+  "short_name": "Cread 3D",
+  "description": "Material didáctico impreso en 3D para el sistema educativo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7F0",
+  "theme_color": "#A8431F",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
