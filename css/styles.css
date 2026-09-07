@@ -374,6 +374,16 @@ h3 {
   font-size: var(--step-1);
 }
 
+/* En pantallas muy angostas (~320px) algunas etiquetas largas ("Seguinos en
+   Instagram @cread_3d", "Quiero un presupuesto institucional") no entran en
+   una sola línea sin forzar scroll horizontal: se permite el salto de línea. */
+@media (max-width: 400px) {
+  .btn {
+    white-space: normal;
+    text-align: center;
+  }
+}
+
 /* ============================================================================
    Header
    ============================================================================ */
@@ -913,6 +923,10 @@ h3 {
   align-items: center;
 }
 
+.feature-split > * {
+  min-width: 0;
+}
+
 @media (max-width: 900px) {
   .feature-split {
     grid-template-columns: 1fr;
@@ -938,6 +952,11 @@ h3 {
   display: flex;
   gap: var(--space-3);
   align-items: flex-start;
+  min-width: 0;
+}
+
+.feature-list li > span {
+  min-width: 0;
 }
 
 .feature-list svg {
