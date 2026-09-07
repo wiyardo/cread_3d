@@ -14,8 +14,8 @@ export const CONFIG = {
   instagramHandle: "@cread_3d",
   instagramUrl: "https://instagram.com/cread_3d",
 
-  // PLACEHOLDER: completar si hay un email de contacto. Dejar en null para ocultarlo del footer.
-  email: null,
+  // Email de contacto. Dejar en null para ocultarlo del footer.
+  email: "thia4085@gmail.com",
 
   // PLACEHOLDER: zona de cobertura / envíos. Se muestra en "Compra institucional" y el footer.
   coverage: "Envíos a todo el país. Zona de CABA y GBA con entrega coordinada.",

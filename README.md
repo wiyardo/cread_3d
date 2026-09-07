@@ -69,8 +69,8 @@ archivo.
 
 ## Qué completar (dueño del negocio)
 
-- [ ] Confirmar/actualizar el número de WhatsApp en `js/config.js`
-- [ ] Email de contacto en `js/config.js` (o dejarlo en `null` para ocultarlo)
+- [x] Número de WhatsApp confirmado en `js/config.js`
+- [x] Email de contacto confirmado en `js/config.js`
 - [ ] Catálogo real en `js/products.js`: nombres, descripciones, niveles,
       áreas, precios — y fotos reales de producto si se quiere reemplazar los
       íconos ilustrados por fotos (ver sección siguiente)
