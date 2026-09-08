@@ -941,6 +941,17 @@ h3 {
   box-shadow: var(--shadow-sm);
 }
 
+.feature-split__panel--illustration {
+  display: grid;
+  place-items: center;
+}
+
+.feature-split__panel--illustration svg {
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+}
+
 .feature-list {
   display: flex;
   flex-direction: column;
